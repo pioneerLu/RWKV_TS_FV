@@ -146,7 +146,7 @@ class TestDataset(Dataset):
     def __len__(self):
         # print("self.X_chunks[0]",len(self.X_chunks[0]))
         print("self.y",len(self.y))
-        return len(self.X_chunks[0])
+        return len(self.X_chunks[0])-1
 
     def __getitem__(self, idx):
         if self.do_normalize:
