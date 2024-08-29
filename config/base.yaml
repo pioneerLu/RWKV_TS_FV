@@ -1,0 +1,12 @@
+target_col: # 请勿修改此行，若无该类变量，则空值即可，下同
+  - "POWER(MW)"  # 预测目标列名称，仅支持1个
+known_cov_cols: 
+  - "wind_speed_80m(m/s)" # 已知协变量列名称，可以有多个
+  - "relative_humidity_2m(%)"
+
+observed_cov_cols: 
+  # - "observed_covariate_1"  # 观测协变量列名称，可以有多个
+  # - "observed_covariate_2"
+
+static_cov_cols: 
+  - "temperature_2m(℃)"  # 静态协变量列名称，可以有多个
