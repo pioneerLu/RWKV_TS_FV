@@ -1,7 +1,3 @@
-########################################################################################################
-# The RWKV Language Model - https://github.com/BlinkDL/RWKV-LM
-########################################################################################################
-
 import os, math, importlib
 import torch
 # torch._C._jit_set_profiling_executor(True)
